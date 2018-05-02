@@ -1,0 +1,56 @@
+<div class="product-gallery">
+  <div id="propCarousel" class="carousel carousel-1 slide" data-ride="carousel" data-interval="<%= @carousel_speed %>">
+    <ol class="carousel-indicators">
+      <% @property_details.prop_photos.each.with_index do |photo, index| %>
+        <li data-target="#propCarousel" data-slide-to="<%= index %>" class=""></li>
+      <% end %>
+    </ol>
+    <div class="carousel-inner">
+      <% @property_details.prop_photos.each.with_index do |photo, index| %>
+        <div class="item item-dark <%= "active" if index == 0 %>">
+          <%= opt_image_tag((photo ), :quality => "auto", height: 600, crop: "scale", class: "", alt: "") %>
+          <% if @property_details.contextual_price_with_currency @operation_type %>
+            <div class="ribbon dark fondo_accion">
+              <span>
+                <%= @property_details.contextual_price_with_currency @operation_type %>
+              </span>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#propCarousel" data-slide="prev">
+      <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="right carousel-control" href="#propCarousel" data-slide="next">
+      <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+  <div class="thumbnail-images" style="display:none;">
+    <%# properties_carousel_footer @property_details.prop_photos %>
+  </div>
+  <div class="wp-block property list no-border">
+    <div class="wp-block-content clearfix">
+      <div class="wp-block-footer style2">
+        <ul class="aux-info">
+          <li><i class="fa fa-arrows-alt"></i>
+            <%= @property_details.constructed_area %><%= area_unit @property_details %>
+          </li>
+          <li><i class="fa fa-bed"></i>
+            <%= @property_details.count_bedrooms %>
+          </li>
+          <li><i class="fa fa-shower"></i>
+            <%= @property_details.count_bathrooms %>
+          </li>
+          <li>
+            <% if @property_details.has_garage %>
+              <i class="fa fa-car"></i>
+              <%= @property_details.count_garages %>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

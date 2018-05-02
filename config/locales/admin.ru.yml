@@ -1,0 +1,496 @@
+ru:
+  admin:
+    pages:
+      aboutUs: About us
+      sell: Sell
+      landing: Landing
+      legal: Legal
+    pageSections:
+      notEditable:
+        This section cannot be edited
+      homeSearchComponent: 
+        title: Search bar
+        info: Enable property search on the home page
+      contactUsFormAndMap: 
+        title: Form and Map
+        info: Contact us form and map
+      pageTitle: Page title
+      services: 
+        title: Services you offer
+        info: An overview of the services you offer
+      people: 
+        title: Your team
+        info: Summary info about your team
+      # landingCarousel: 
+      #   title: Home page carousel
+      #   info: Main section displaying images and text
+      rawHtml: 
+        title: HTML Content
+        info: You can add extra HTML here
+      topRentals: 
+        title: Top Rentals
+        info: Summary list of properties to rent
+      topSales: 
+        title: Top Sales
+        info: Summary list of properties for sale
+      contactUsForm: 
+        title: Contact us form
+        info: Form to allow visitors to send you a message
+      # aboutUs:
+      #   title: Text and photo
+      #   info: A little bit about your business
+      ourAgency:
+        title: About our agency
+        info: A little bit about your business
+      landingHero:
+        title: Main header
+        info: Large image and text highlighting your business
+    "true": "true"
+    "false": "false"
+    "yes": "да"
+    "no": "нет" 
+    es-ES: Spain
+    es-CL: Chile
+    es-MX: Mexico
+    en-UK: UK
+    en-US: USA
+    fr-FR: France
+    pt-PT: Portugal
+    pt-BR: Brazil
+    it-IT: Italy
+    de-DE: Germany
+    ru-RU: Russia
+    ko-KR: Korea
+    nl-Nl: Netherlands
+    nl-NL: Netherlands
+    pl-PL: Poland
+    ro-RO: Romania
+    fi-FI: Finland
+    no-NO: Norway
+    ca-CA: Catalunia
+    hi-IN: India
+    hi: Hindi
+    pl: Polish
+    ro: Romanian
+    ko: Korean
+    sqmt: Квадратные метры
+    sqft: Квадратный фут
+    cad: Canadian Dollar
+    ars: Argentinan Peso
+    aud: Australian Dollar
+    mxn: Mexican Peso
+    gbp: UK Pounds
+    usd: US Dollars
+    eur: Euros
+    inr: Indian Rupee
+    chf: Swiss Franc
+    cny: Chinese Yuan Renminbi
+    clp: Chilean Peso
+    rub: Российский рубль
+    brl: Brazilian Real
+    zar: South African Rand
+    hkd: Hong Kong Dollar
+    pln: Polish Zloty
+    ron: Romanian Leu
+    ngn: Nigerian Naira
+    ghs: Ghanaian Cedi
+    dkk: Danish Krone
+    czk: Czech Koruna
+    sek: Swedish Krona
+    thb: Thai Baht
+    mad: Moroccan Dirham
+    egp: Egyptian Pound
+    inTabLabels:
+      topNav: Верхнее меню
+      footer: Нижнее меню
+      currency: Валюта
+      colors: Цвета
+      socialLinks: Социальные сети
+      siteLayout: Шаблон сайта
+      colorFooterBg: Основной цвет подвала
+      colorFooterMainText: Основной цвет текста подвала
+      colorFooterSecText: Дополнительный цвет текста
+      colorPrimary: Основной цвет
+      colorSecondary: Дополнительный цвет
+      colorActions: Цветовые действия
+      supportedLanguages: Поддержка языков
+      visibility: Видимость
+    navbar:
+      home: "Главная"
+      admin: "Админ"
+      aboutUs: "О нас"
+      sell: "Продажа"
+      buy: "Покупка"
+      rent: "Аренда"
+      contactUs: "Свяжитесь с нами"
+      legalAdvice: "Соглашение с пользователем"
+      privacyPolicy: "Политика конфиденциальности"
+    adminSections:
+      pages: Pages
+      import: Импорт данных
+      start: Главная
+      agencyDetails: Агенство
+      content: Вебсайт
+      websiteSettings: Настройки
+      websiteContent: Контент
+      translations: Переводы
+      properties: Свойства
+      clientes: Клиенты
+      quit: Перейти на сайт
+      list: Список
+      settings: Настройки
+      labels: Метки
+      about: О нас
+
+    btnLabels:
+      importTranslations: Импорт переводов
+      importSiteContent: Импорт контента сайта
+      setThemePrompt: Установить шаблон сайта
+      activatedThemeInfo: Текущий шаблон сайта
+
+    info:
+      defaultCurrency: Будет применяться только к вновь добавленным свойствам
+      defaultAreaUnit: Будет применяться только к вновь добавленным свойствам
+      recPropPhotoSize: Рекомендованный размер фотографий 800px X 500px,
+      recCarouselPhotoSize: Рекомендованный размер для фотографий слайдера 900px X 400px,
+      recLogoPhotoSize: Рекомендованный размер для логотипа 120px X 80px,
+      orderByDragging: Выделите и перетащите в объявление - первая фотография будет главной фотографией.
+
+    webContentLabels: 
+      suffixEn: на английском
+      suffixEs: на испанском
+      suffixAr: на арабском
+      suffixIt: на итальянском
+      suffixPt: на португальском
+      suffixDe: на немецком
+      suffixRu: на русском
+      suffixCa: на каталонском
+      suffixNl: на датском
+      suffixFr: in French
+      suffixPl: in Polish
+      suffixRo: in Romanian
+      privacyPolicy: Политика конфиденциальности
+      legalAdvice: Соглашение с пользователем
+      # landingcarousel: Текст для фотографии слайдера
+      # cac1: Колонка 1
+      # cac2: Колонка 2
+      # cac3: Колонка 3
+      # landingPageHero: Контент для главной страницы
+      # tagLine: Поле тэга
+      aboutUs: О нас
+      footerInfo: Дополнительный контент для футера
+
+    siteSections: 
+      aboutUs: О нас
+      contactUs: Связаться с нами
+      buy: Купить 
+      rent: Аренда
+      sell: Продать
+
+    ioSections:
+      fromMls: Импорт из MLS
+      fromUpload: Импорт из файла
+      fromWebpage: Импорт из веб страницы 
+
+    webContentSections:
+      navigation: Навигация
+      appearance: Внешний вид
+      footer: Футер
+      aboutUs: О нас
+      contactInformation: Контактная информация 
+      sell: Продать
+      tagLine: поле тэга
+      legal: Официальная информация
+      general: Главная
+      landingCarousel: Слайдер
+      home: Главная
+      contentAreaCols: Колонки
+      sections: Разделы
+      info:
+        contentAreaCols: Колонки на главной странице, с информацией об оказываемых услугах
+
+    fieldLabels: 
+      pickMlsPrompt: Выберите MLS
+      propCsvUploadPrompt: Выберите тип файла для импорта
+      pwbCsvFile: Экспорт cvs файла из PropertyWebBuilder
+      mlsCsvFile: Экспорт cvs файла из PropertyWebBuilder
+      deleteProp: Удалить свойство
+      areaUnit: Единица площади
+      defaultAreaUnit: По умолчанию единица площади
+      currency: Валюта
+      defaultCurrency: Валюта по умолчанию
+      defaultLocale: Языка сайта по умолчанию
+      ref: No сcылки
+      tipo: Тип
+      estado: Состояние
+      descripcionEspanol: Описание
+      tituloEspanol: Заголовок
+      descripcionIngles: Описание на английском
+      tituloIngles: Заголовок на английском
+      precioVenta: Цена продажи
+      precioAntiguo: Изначальная цена
+      precioAlquiler: Стоймость аренды
+      origen: Origen
+      temporadas: период года(сезон)
+      precioTa:  Предельный уровень цены 
+      precioTm: Средний уровень цены
+      precioTb: Нижний уровень цены
+      eficienciaEnergia: Энергосбережение
+      yearConstruction: Дата постройки
+      countBedrooms: Спальни
+      countBathrooms: Ванные комнаты
+      plotArea: Площадь недвижимости
+      constructedArea: Планировка
+      garaje: Гараж
+      forSearchWidget: Поиск
+      obscureMap: Скрыть точный адрес на веб-сайте?
+      hideMap: Скрыть карту на веб-сайте?
+      forSale: Для продажи?
+      priceSaleCurrent: Текущая цена
+      saleDiscount: Скидка
+      priceSaleOriginal: Первоначальная цена
+      longTermRental: Возможность для долгосрочной аренды?
+      seasonalRental: Возможность для сезонной аренды?
+      priceRentalMonthlyHighSeason: Стоймость аренды для горячего сезона
+      priceRentalMonthlyLowSeason: Стоймость аренды для холодного сезона
+      priceRentalMonthlyStandardSeason: Стоймость аренды для обычного сезона
+      priceRentalMonthlyCurrent: Текущая стоймость аренды (в месяц)
+      longTermRentalDiscount: Скидка для долгосрочной аренды
+      priceRentalMonthlyOriginal: Первоначальная стоймость аренды (в месяц)
+      firstNames: Имя
+      lastNames: Фамилия
+      visible: Видимость
+      visibleOnWeb: Видимость на сайте
+      highlighted: Выделенные
+      label: Метка
+      companyName: Название компании
+      primaryPhone: Показать телефонный номер
+      otherPhone: Показать другие телефонные номера
+      primaryEmail: Показать email
+      propertyContactEmail: Реквизиты email о запросе недвижимости
+      generalContactEmail: Запрос email на недвижимость
+      nationality: Национальность
+      documentationType: Тип документа
+      documentationId: Идентификатор документа
+      email: Email
+      fax: Fax
+      skype: Skype
+      personTitle: Заголовок
+      description: Описание
+      title: Заголовок
+      info:
+        primaryEmail: Электронная почта, отображаемая в заголовке страницы
+        primaryPhone: Телефонный номер, отображаемый в заголовке страницы
+        propertyContactEmail: Запросы о конкретных недвижимостях будут отправлены здесь
+        generalContactEmail: Запросы из страницы "связаться с нами" будут отправлены здесь
+
+    # for header row in property listing
+    propertyColHeader:
+      highlighted: Выделенные
+      locality: Местонахождение
+      actions: Действия
+      zone: Зона
+      price: Цена
+      bedrooms: Спальни
+      bathrooms: Ванные комнаты
+      visible: Видимость
+      reference: Ссылка
+      type: Тип
+
+    save: Сохранить
+    cancel: Отмена
+    edit: Редактировать
+    preview: Предварительный просмотр
+    close: Закрыть
+    addLogo: Добавить логотип
+    addPhotos: Добавить фотографии
+    create: Создать
+    delete: Удалить
+    show: Показать
+    hide: Скрыть
+    logo: Логотип
+    aboutUsPhoto: О нас фотография
+    addAboutUsPhoto: Добавить о нас фотография
+
+    visible: Видимый
+    hidden: Скрыть
+
+    editWebsite: Редактировать веб сайт
+    settingsForWebsite: Настройки для веб сайта
+    contentForWebsite: Контент для веб сайта 
+    sectionsForWebsite: Разделы сайта
+    themesForWebsite: Темы сайта
+    importExport: Импорт и экспорт данных
+    returnToWebsite: Вернуться на сайт
+    settingsForProperties: Настройка для недвижимости
+    returnToProperties: Вернуться к недвижимости
+    addProperty: Добавить недвижимость
+    addClient: Добавить клиента
+    newProperty: Новая недвижимость
+    newClient: Новый клиент
+    propertiesList: Список недвижимости
+    clientsList: Список клиентов
+
+    prompts: 
+      fixErrors: Пожалуйста, исправьте ошибки выше
+
+    todos: 
+      createContent: Создать контент
+      companyDetails: Настроить данные о компании
+
+    locationTab: 
+      confirmAddress: Подтвердить новое местоположение
+
+    agencySections: 
+      general: Детали агенства
+      location: Расположение
+      user: Информация пользователя
+
+    siteLayout: 
+      wide: широкий
+      boxed: Коробочный
+
+    propertySections: 
+      general: Общий
+      location: Местонахождение
+      text: Текст
+      extras: Характеристики
+      photos: Фотографии
+      sale: Продать / Аренда
+      owner: Собственник
+
+    propertyGeneralSections: 
+      sale: Sale
+      longtermRental: Долгосрочная аренда
+      seasonalRental: Сезонная аренда
+      visibility: Актуально
+      generalData: Общая информация
+      characteristics: Характеристики
+      portals: Веб порталы
+      extras: Особенности
+
+    translationsSections: 
+      extras: Особенности
+      propertyTypes: Типы недвижимости
+      propertyOrigins: происхождение недвижимости
+      propertyStates: Состояние недвижимости
+      propertyLabels: Метки недвижимости
+      provinces: Регионы
+
+    toolTips: 
+      forSale: Выбрать если недвижимость доступна для продажи
+      priceSaleCurrent: Текущая цена продажи
+      saleDiscount: Скидка
+      priceSaleOriginal: Первоначальная цена продажи
+      longTermRental: Выбрать 'Да' если недвижимость доступна для долгосрочной аренды
+      priceRentalMonthlyCurrent: Текущая цена аренды
+      priceRentalMonthlyOriginal: Первоначальная цена аренды
+
+      addNewEntry: Добавить новую запись
+      visible: Выберите 'Да' чтобы добавить недвижимость на сайт
+      highlighted: Выберите 'Да' чтобы выделить недвижимость на сайте      
+      seasonalRental: Выберите 'Да' если недвижимость сдается в арнеду посезонно
+      ref: Номер ссылки для недвижимости
+
+    alerts: 
+      changesDetected: Вы не сохранили изменения.
+      deletingProperty: Вы уверены, что хотите удалить это свойство. Это действие не может быть отменено.
+      navigatingFromChanges: У вас есть несохраненные изменения. Сохраните или отмените свои изменения.
+      visibleProperties: Эти свойства будут отображены на вашем сайте
+      hiddenProperties: Эти свойства не будут отображены на вашем сайте
+      clickMapToUpdate: Нажмите на карту, чтобы выбрать адрес или введите ниже.
+
+    datatables: 
+      sInfo: Отображение элементов из _START_ al _END_ из общего количества свойств _TOTAL_
+      sInfoEmpty: Отображение элементов из 0 al 0 из общего количества 0 свойств
+      sInfoPostFix: ""
+      sSearch: Поиск
+      sUrl: ""
+      sInfoThousands: ","
+      oPaginate: 
+        sFirst: "<<"
+        sLast: ">>"
+        sNext: ">"
+        sPrevious: "<"
+
+    alert: 
+      deleteItem: Вы уверены что хотите удалить данный элемент?
+      deleteButton: Да, удалить!
+
+    street: Улица
+    streetAddress: Название улицы
+    streetNumber: Номер дома
+    city: Город
+    postCode: индекс
+    region: Регион
+    zone: Зона
+    locality: Населенный пункт
+    country: Страна
+
+    properties: Список недвижимости
+
+    cards: 
+      website: Вебсайт
+      websitePrompt: Действия сайта
+      websiteLink: Перейти в панель администратора
+      properties: Список недвижимости
+      propertiesPrompt: Действия недвижимости
+      propertiesLink: Перейти к списку недвижимости
+    tasks: 
+      addProperty: Добавить недвижимость
+      addPropertyPrompt: список недвижимости / Добавить недвижимость
+      manageProperties: Управление списком недвижимости
+      managePropertiesPrompt: Список недвижимости / Редактировать недвижимость
+      changeLogo: Управление логотоипом, языками и внешним видом
+      changeLogoPrompt: Веб конфигурация
+      changeLang: Изменить язык
+      changeLangPrompt: Изменить язык
+      changeLegalText: Изменить текст Публичного соглашения
+      manageLandingCarousel: Управлять слайдером-каруселью 
+      changeAboutUsText: Изменить тект "О нас"
+      managePropertyTypes: Упралвение типами недвижимости
+      managePropertyExtras: Управление характеристиками недвижимости
+
+    buttonLabels: 
+      configureAvailableExtras: Конфигурация доступных характеристик
+      selectImagesToAdd: Выбрать изображение для добавления
+      selectRemoteImages: Выбрать изображение из ссылок
+
+    errors:
+      genericServerError: Извините, произошла ошибка
+      languageRequired: Вы должны выбрать хотя бы один из языков
+      inclusion: это не входит в список
+      exclusion: зарезервировано
+      invalid: не допустимо
+      confirmation: "не соответствует {{attribute}}"
+      accepted: должен быть принят
+      empty: "не может быть пустым"
+      blank: "не может быть пустым"
+      present: должен быть пустым
+      tooLong: слишком длинное (максимум {{count}} символов)
+      tooShort: слишком короткое (минимум {{count}} символов)
+      wrongLength: неправильная длина (долэно быть {{count}} символов)
+      notANumber: это не номер
+      notAnInteger: должно быть число
+      greaterThan: должно быть больше чем {{count}}
+      greaterThanOrEqualTo: должно быть больше или равно {{count}}
+      equalTo: должно быть равно {{count}}
+      lessThan: должно быть меньше чем {{count}}
+      lessThanOrEqualTo: должно быть меньше или равно {{count}}
+      otherThan: Должyj быть иное, чем {{count}}
+      odd: должно быть нечетное
+      even: должно быть четное
+      tooShortVjs: слишком короткое
+      notAUrlVjs: не правильный формат URL
+
+    ar: Arabic
+    en: English
+    es: Spanish
+    ca: Catalan
+    fr: French
+    ru: Русский
+    nl: Dutch
+    it: Italian
+    de: German
+    pt: Portuguese
+

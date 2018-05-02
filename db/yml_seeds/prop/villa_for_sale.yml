@@ -1,0 +1,59 @@
+---
+- reference: re-s1
+  year_construction: 0
+  count_bedrooms: 2
+  count_bathrooms: 2
+  count_toilets: 1
+  count_garages: 1
+  flags: 0
+  furnished:
+  sold:
+  reserved:
+  highlighted: false
+  archived: false
+  visible: true
+  for_rent_short_term: false
+  for_rent_long_term: false
+  for_sale: true
+  hide_map: false
+  obscure_map: false
+  portals_enabled: false
+  deleted_at:
+  active_from:
+  available_to_rent_from:
+  available_to_rent_till:
+  price_sale_current_cents: 30000000
+  price_rental_monthly_current_cents: 0
+  commission_cents: 0
+  commission_currency: USD
+  service_charge_yearly_cents: 0
+  service_charge_yearly_currency: USD
+  currency:
+  prop_origin_key: ''
+  prop_state_key: ''
+  prop_type_key: ''
+  street_address: Providence Boulevard
+  street_name: 
+  street_number: 131
+  postal_code: 08824
+  city: South Brunswick Township
+  region: New Jersey
+  currency: USD
+  country: United States
+  longitude: -74.5798604
+  latitude: 40.4076591
+  plot_area: 550.0
+  constructed_area: 190.0
+  energy_rating:
+  energy_performance:
+  title_en: Example country house for sale.
+  title_es: Ejemplo de una villa para vender.  
+  description_en: Description of the amazing country house for sale. 
+  description_es: Descripción de una villa estupenda para vender.
+  photo_files:
+    - db/example_images/new_villa.jpg
+    - db/example_images/kitchen_modern.jpg
+  # photo_urls: 
+  #   - https://inmo-a.s3.amazonaws.com/property/83/image_20bc779090.jpg
+  #   - https://inmo-a.s3.amazonaws.com/property/90/image_20ba3b5ef9.jpg
+

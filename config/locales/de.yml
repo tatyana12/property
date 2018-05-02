@@ -1,0 +1,158 @@
+---
+de:
+  aboutUs: Über uns
+  address: Adresse
+  back: Zurück
+  changePassword: Passwort ändern
+  contact:
+    emailSubject: Kontaktiere uns von deiner Website
+    error: Sorry, es ist ein Fehler aufgetreten.
+    success: Danke für deine Nachricht. Wir werden dich umgehend kontaktieren!
+  contactUs: Kontakt
+  contactUsPrompt: Füllen Sie das untenstehende Formular aus, um uns zu kontaktieren
+  devise:
+    user_update_success: Du hast dein Konto erfolgreich aktualisiert
+    user_update_success_title: Herzlichen Glückwunsch
+  editarPropiedad: Bearbeiten einer Eigenschaft
+  email: Email
+  'false': Nein
+  findAProperty: Finden Sie eine Immobilie
+  findByReference: Suchen Sie nach Referenz
+  forRent: Zu vermieten
+  forSale: Zu verkaufen
+  go: Gehen
+  labels:
+    create: Erstellen
+    edit: Bearbeiten
+    latestProperties: Latest properties
+    new: Neu
+    ourServices: Our services
+    save: Speichern
+  leaveBlank: leer lassen, wenn du es nicht ändern wollen
+  legalAdvice: Impressum
+  listadoPropiedades: Liste der Inmobilien
+  mailers:
+    confirm_registration: Bitte bestätigen dein Ihr Konto über den unten stehenden
+      Link
+    from: Von
+    general_enquiry_targeting_agency:
+      title: Allgemeine Anfrage von diner Website
+    general_enquiry_targeting_enquirer:
+      message_title: ''
+      subject: ''
+    message: Nachricht
+    phone: Tel
+    property: Inmobilie
+    property_enquiry_targeting_agency:
+      title: Anfrage bezüglich einer Immobilie
+    received_on: Eingegangen am
+    welcome: Herzlich willkommen
+  menu_admin: Administrator
+  message: Nachricht
+  name: Name
+  navbar:
+    aboutUs: Über uns
+    admin: Administrator
+    buy: Kaufen
+    contactUs: Kontakt
+    home: Zuhause
+    legalAdvice: Impressum
+    privacyPolicy: Datenschutz-Bestimmungen
+    rent: Miete
+    sell: Verkaufen
+  needCurrentPwd: Wir brauchen dein aktuelles Passwort, um die Änderungen zu bestätigen
+  newPassword: Neues Kennwort
+  noResultsForSearch: Leider keine Ergebnisse
+  nuevoPropiedad: neue Immobilien
+  orderBy:
+    priceAscending: "↓ Preis (aufsteigend)"
+    priceDescending: "↑ Preis (absteigend)"
+  placeHolders:
+    email: Deine E-Mail
+    message: Schreibe deine Nachricht hier
+    name: Dein Name
+    subject: Betreff
+    tel: Telefon
+  privacyPolicy: Datenschutz-Bestimmungen
+  property:
+    description: Beschreibung
+    details: Details
+    extras: Exras
+    furniture: Möbel
+    goToProperty: Ansicht der Immobilie
+    highlightedProperty: herausragende Immbilie
+    locality: Gegend
+    map: Karte
+    monthlyRentalPriceHighSeason: Monatlicher Miete (Hochsaison)
+    monthlyRentalPriceLowSeason: Monatlicher Miete (Nebensaison)
+    monthlyRentalPriceStandardSeason: Monatlicher Miete (Standard Saison)
+    operationType: Operationstyp
+    price: Preis
+    propertyType: Art der Immobilie
+    ref: Ref
+  propertyForRent: Immobilien zu vermieten
+  propertyForSale: Eigentum zum verkauf
+  propertyNotFound: Immobilie nicht gefunden
+  pwb:
+    copyright: "%{company_name} Inc. Alle Rechte vorbehalten."
+    createPrompt: Erstellen deine Webseite Ihre Immobilienbüro
+    createTagLine: Bitte geben Sie die Details für dein Konto
+    getStarted: Jetzt loslegen
+    registerNow: Jetzt registrieren
+    tagLine: Professionelle Websites für Immobilienmakler in Minuten
+    tagLineExt: Schöne und elegante Websites, die gesehen werden müssen. <br> Niemand
+      bringt dich schneller online.
+  requestPropertyInfo: Infos anfordern
+  search: Suche
+  searchForProperties: Suche nach Immobilien
+  selectpicker:
+    countSelectedText: Ausgewählte {0} von {1}
+    noneResultsText: Keine Ergebnisse {0}
+    noneSelectedText: Nichts ausgewählt
+  send: Senden
+  setup:
+    claimSubdomain: Diese URL registrieren
+    createdSuccessfully: Web-Site erstellt erfolgreich
+    goToYourSite: Gehen Sie zu Ihrer Website
+    loggedInAs: Angemeldet als
+    logout: Ausloggen
+    selectUrl: Wählen Sie eine URL
+    selectUrlMessage: Jetzt wählen Sie die URL für Ihre neue Website - Sie haben erfolgreich
+      ein Konto erstellt
+    subdomain: Sub-Domain
+    subdomainMissing: Bitte gib einen Namen für die Sub-Domain ein
+    thankYouForTrusting: Vielen Dank für dein Vertrauen %{company_name}
+    urlNotAvailable: Leider ist diese URL ist nicht verfügbar
+    weAreCreatingSite: Wir erstellen deine Website
+  signOut: Ausloggen
+  simple_form:
+    error_notification:
+      default_message: 'Bitte lesen Sie die folgenden Probleme:'
+    labels:
+      search:
+        count_bathrooms: Bäder (min)
+        count_bedrooms: Schlafzimmer (min)
+        for_rent_price_from: Miete ab (Monthly)
+        for_rent_price_till: Mieten Bis (Monthly)
+        for_sale_price_from: Preis von
+        for_sale_price_till: Preis Bis
+        in_locality: Gegend
+        in_zone: Gebiet
+        locality: Gegend
+        property_state: Bundesland der immobilie
+        property_type: Art der Immobilie
+    'no': Nein
+    required:
+      mark: "*"
+      text: erforderlich
+    'yes': Ja
+  subject: Betreff
+  tel: Telefon
+  'true': Ja
+  update: Aktualisieren
+  webContentSections:
+    aboutUs: Über uns
+    contactInformation: Kontakt Informationen
+    home: Zuhause
+    sell: Verkaufen
+    tagLine: Tag-Linie

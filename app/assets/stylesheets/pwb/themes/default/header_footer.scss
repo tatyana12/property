@@ -1,0 +1,274 @@
+footer {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  min-height: 30px;
+  /*background: #232323
+  replaced with fondo_secundario
+  */
+}
+
+
+/*footer {
+  padding-bottom: 5px;
+}
+*/
+
+footer:before,
+footer:after {
+  display: table;
+  content: " ";
+}
+
+footer:after {
+  clear: both;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer .copyright {
+  color: #fff;
+}
+
+header {
+  .text-navbar-brand {
+    padding-top: 24px;
+    font-size: 2.5em;
+  }
+  .top_header {
+    color: #fff;
+    width: 100%;
+    clear: both;
+    font-size: 14px;
+    padding: 5px 0 3px 0;
+  }
+  .top_header {
+    font-family: 'PT Sans', sans-serif;
+  }
+}
+
+header.top_header {
+  min-height: 25px;
+}
+
+
+/*start sticky footer*/
+
+
+/*http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.sticky-wrap {
+  min-height: 100%;
+  position: relative;
+}
+
+.sticky-body {
+  /*below is enough space for footer  */
+  padding-bottom: 200px;
+}
+
+
+/*#header {
+   background:#ff0;
+   padding:10px;
+}*/
+
+.fondo_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  /*background:#6cf;*/
+}
+
+
+/*end sticky footer*/
+
+.social-default {
+  margin-top: 25px;
+  .fa {
+    padding-right: 4px;
+  }
+}
+
+/*footer {
+  .footer-extra {
+    color: #ccc;
+    font-size: 13px;
+    margin-top: auto;
+  }
+  .social-default i {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    color: #333;
+    border-radius: 2px;
+  }
+}*/
+
+footer .col.reset {
+  margin: 0
+}
+
+footer h4 {
+  margin-top: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500
+}
+
+/*footer .col p {
+  color: #ccc;
+  font-size: 13px;
+  margin-bottom: 10px
+}*/
+
+footer a {
+  color: #ccc;
+  text-decoration: none
+}
+
+footer a:hover {
+  text-decoration: none
+}
+
+footer .col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+footer .col ul li {
+  /*color: #8f8f8f*/
+}
+
+footer .col ul li span {
+  color: #fff
+}
+
+footer .col address {
+  color: #ddd;
+  padding: 8px 0
+}
+
+footer .company-info {
+  font-size: 10px;
+  text-align: justify
+}
+
+footer .company-info h2 {
+  font-size: 14px;
+  font-weight: 600
+}
+
+
+/*breadcrumbs row - strictly speaking not header*/
+
+.pg-opt {
+  /*margin-top: 70px;*/
+  border-bottom: 1px solid #e0eded;
+  border-top: 1px solid #e0eded;
+  background: #fcfcfc;
+  color: #333
+}
+
+.pg-opt h2 {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #333
+}
+
+.pg-opt .breadcrumb {
+  float: right;
+  margin: 0;
+  padding: 16px 15px 16px 0;
+  padding-right: -15px;
+  background: transparent;
+  border-radius: 0
+}
+
+.pg-opt .breadcrumb a {
+  color: #333
+}
+
+.pg-opt .breadcrumb a:hover {
+  color: #3498db
+}
+
+.pg-opt .breadcrumb li.active {
+  color: #333
+}
+
+@media only screen and (max-width:767px) {
+  /*for xs screens*/
+/*  .sticky-body {
+    below is enough space for footer  
+    padding-bottom: 300px;
+  }*/
+  .pg-opt .pg-nav {
+    float: left;
+    margin-bottom: 10px
+  }
+  .pg-opt h2 {
+    /*padding: 20px 0 0 0*/
+  }
+}
+
+
+/* menu */
+
+ul.mega-nav-ul li {
+  margin-left: 10px;
+}
+
+ul.mega-nav-ul li a:hover {
+  text-decoration: underline;
+}
+
+ul.navbar-right li.selected {
+  position: relative;
+}
+
+ul.navbar-right li.selected a:after {
+  top: 0;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #fff;
+  border-width: 10px;
+  margin: -3px 0 0 -10px;
+}
+
+ul.navbar-right li.selected a:hover:after {
+  display: none;
+}

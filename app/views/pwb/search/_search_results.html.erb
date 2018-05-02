@@ -1,0 +1,24 @@
+<div id="resp_buscar_inmuebles">
+  <ul class="list-listings" id="ordered-properties">
+    <% unless @properties && (@properties.size > 0 ) %>
+      <h4 style="margin-top: 40px;text-transform: none;">
+        <%= t "noResultsForSearch" %>
+      </h4>
+    <% end %>
+    <% @properties.each_with_index do |property, index| %>
+      <%= render :partial => '/pwb/search/search_result_item', :locals => { property: property, index: index } %>
+    <% end %>
+  </ul>
+  <!-- PAGINATION & FILTERS -->
+  <div class="wp-block default product-list-filters light-gray" style="display:none;">
+    <ul class="pagination pagination pull-left">
+      <li><a href="#" hidefocus="true">«</a></li>
+      <li class="active"><a href="#" hidefocus="true">1</a></li>
+      <li><a href="#" hidefocus="true">2</a></li>
+      <li><a href="#" hidefocus="true">3</a></li>
+      <li><a href="#" hidefocus="true">4</a></li>
+      <li><a href="#" hidefocus="true">5</a></li>
+      <li><a href="#" hidefocus="true">»</a></li>
+    </ul>
+  </div>
+</div>
