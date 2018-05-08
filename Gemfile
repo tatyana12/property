@@ -129,13 +129,13 @@ gem 'paloma', github: 'fredngo/paloma'
 gem 'property_web_scraper', github: 'RealEstateWebTools/property_web_scraper'
 
 
-#gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'
+gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'
 gem 'globalize', git: 'https://github.com/globalize/globalize'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'pwb', git: 'https://github.com/etewiah/property_web_builder'
+
 # , branch: 'link-model-support'
 # gem 'globalize', git: 'https://github.com/globalize/globalize'
 gem 'paloma', git: 'https://github.com/fredngo/paloma'
