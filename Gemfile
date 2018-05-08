@@ -1,6 +1,8 @@
 
 source 'https://rubygems.org'
-
+* source: https://github.com/RealEstateWebTools/property_web_scraper (at
+remote:        master@b8a4997)
+remote:        * source: https://github.com/etewiah/property_web_builder (at master@3584683)
 # Declare your gem's dependencies in pwb.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
