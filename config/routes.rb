@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Pwb::Engine.routes.draw do
 
 
@@ -191,4 +192,11 @@ Pwb::Engine.routes.draw do
     # comfy_route :cms, :path => '/comfy', :sitemap => false
 
   end
+=======
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  mount Pwb::Engine => '/'
+  mount PropertyWebScraper::Engine => '/io/'
+
+>>>>>>> 554139d2104cf80f3d909b8af578654e1d79c3aa
 end

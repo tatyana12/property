@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env rake
 begin
   require 'bundler/setup'
@@ -35,3 +36,11 @@ task default: :spec
 load 'rails/tasks/statistics.rake'
 
 require 'bundler/gem_tasks'
+=======
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+
+require_relative 'config/application'
+
+Rails.application.load_tasks
+>>>>>>> 554139d2104cf80f3d909b8af578654e1d79c3aa
