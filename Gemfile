@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 
 # Declare your gem's dependencies in pwb.gemspec.
@@ -141,5 +142,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'paloma', git: 'https://github.com/fredngo/paloma'
 # fog-core 1.44.0 requires xmlrpc which is not available in ruby < 2.3...
 gem 'fog-core', '1.43.0'
-gem 'property_web_scraper', git: 'https://github.com/RealEstateWebTools/property_web_scraper'
+
 end
