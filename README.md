@@ -1,5 +1,5 @@
 # PropertyWebBuilder
-#just try it
+
 Please help support this project by making a contribution to PropertyWebBuilder here: https://opencollective.com/property_web_builder
 
 [![Backers on Open Collective](https://opencollective.com/property_web_builder/backers/badge.svg)](#backers)
