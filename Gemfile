@@ -81,3 +81,7 @@ end
 gem 'paloma', github: 'fredngo/paloma'
 # gem 'bourbon'
 gem 'property_web_scraper', github: 'RealEstateWebTools/property_web_scraper'
+
+
+gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'
+gem 'globalize', git: 'https://github.com/globalize/globalize'
