@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+_source 'https://rubygems.org'
 
 # Declare your gem's dependencies in pwb.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -129,7 +129,7 @@ gem 'paloma', github: 'fredngo/paloma'
 gem 'property_web_scraper', github: 'RealEstateWebTools/property_web_scraper'
 
 
-gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'
+
 gem 'globalize', git: 'https://github.com/globalize/globalize'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
