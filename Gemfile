@@ -124,7 +124,7 @@ end
 # below overwrites I18n::Backend::Base above which causes seeder to break in specs
 # gem 'localeapp'
 
-gem 'paloma', github: 'fredngo/paloma'
+
 # gem 'bourbon'
 gem 'property_web_scraper', github: 'RealEstateWebTools/property_web_scraper'
 
